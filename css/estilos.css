@@ -1,0 +1,70 @@
+header {
+	padding: 1vw;
+}
+
+main {
+	padding: 2vw;
+}
+
+body {
+	background-image: url('../img/eiffel.jpg');
+}
+
+
+
+.redes li {
+	padding: 1vw;
+}
+
+.redes a span {
+	font-size: 2rem;
+	transition: all 1s;
+	color: #fff;
+}
+
+.redes a span:hover {
+	font-size: 3rem;
+}
+
+.gallery-travel img{
+	padding: 1vw;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.img-article {
+	width: 300px;
+	float: left;
+	margin-right: 1vw;
+	padding: 0.5vw;
+	border: 1px solid #ccc;
+}
+
+main {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (min-width: 720px)
+ {
+ 	header img {
+ 		position: absolute;
+ 		max-width: 300px !important;
+ 	}
+
+ 	header h1 {
+ 		font-size: 2.5rem;
+ 		font-weight: bold;
+ 	}
+
+ 	.inline li {
+	display: inline-block;
+}
+ }
+
+
+ @media (max-width: 480px) {
+ 	.img-article {
+	width: 100%;
+	float: left;
+}
+ }
